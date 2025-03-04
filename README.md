@@ -4,14 +4,14 @@
 curl --location 'localhost:8083/user-onboarding/create/user' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "name": "Sagar",
-    "email": "sagar@gmail.com",
-    "phoneNo": "5697455253",
+    "name": "Som",
+    "email": "somnath.try@gmail.com",
+    "phoneNo": "123456677",
     "password": "12345",
     "userIdentifier": "AADHAAR",
     "userIdentifierValue": "56587452256",
-    "dob": "14/02/1997",
-    "address": "Vasundhra Ph 1 Delhi"
+    "dob": "14/02/2003",
+    "address": "BTM Layout, Bangalore"
 }'
 
 # Curl to Make Transaction
